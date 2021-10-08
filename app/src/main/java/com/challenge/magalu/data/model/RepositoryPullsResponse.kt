@@ -1,7 +1,5 @@
 package com.challenge.magalu.data.model
 
-import com.squareup.moshi.JsonClass
-
 data class RepositoryPullsResponse(
     val _links: Links?,
     val active_lock_reason: Any?,

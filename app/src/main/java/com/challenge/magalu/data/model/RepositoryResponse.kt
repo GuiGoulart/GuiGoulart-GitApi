@@ -1,7 +1,5 @@
 package com.challenge.magalu.data.model
 
-import com.squareup.moshi.JsonClass
-
 data class RepositoryResponse(
     val incomplete_results: Boolean,
     val items: List<Item>,
