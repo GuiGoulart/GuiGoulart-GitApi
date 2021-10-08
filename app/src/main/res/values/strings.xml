@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DesafioMagalu</string>
+    <string name="repository_empty">Não foi possível localizando um repositório java,\n Por favor tente novamente mais tarde</string>
+    <string name="date_list_details">Data:\n%1$s</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ChallengeMagalu</string>
+    <string name="repository_empty">Could not find a java repository,\n Please try again later</string>
+    <string name="date_list_details">Date:\n%1$s</string>
+</resources>

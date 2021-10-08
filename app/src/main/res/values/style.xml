@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.RemoveSplashScreenTheme" parent="@style/Theme.Design.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="CollapsingToolbar.Style" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/blue</item>
+        <item name="collapsedTitleTextAppearance">@style/Toolbar.TitleTextAppearance</item>
+        <item name="contentScrim">@color/blue</item>
+        <item name="expandedTitleGravity">center_horizontal</item>
+        <item name="expandedTitleMarginBottom">8dp</item>
+        <item name="expandedTitleTextAppearance">@style/Toolbar.TitleTextAppearance</item>
+        <item name="titleEnabled">true</item>
+    </style>
+
+    <style name="Toolbar.TitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="Toolbar.Style" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/blue</item>
+        <item name="popupTheme">@style/Toolbar.Style</item>
+        <item name="titleTextAppearance">@style/Toolbar.TitleTextAppearance</item>
+        <item name="titleTextColor">@color/gray</item>
+        <item name="android:textColorPrimary">@color/red</item>
+    </style>
+
+</resources>
